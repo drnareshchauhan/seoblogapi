@@ -32,4 +32,6 @@
     "slugify": "^1.5.1",
     "string-strip-html": "^8.2.13"
   }
+  
 }
+
