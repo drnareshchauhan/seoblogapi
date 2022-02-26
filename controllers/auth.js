@@ -39,7 +39,7 @@ exports.preSignup = (req, res) => {
                 <p>Link expires in 10 minutes.</p>
                 <hr />
                 <p>This email may contain sensitive information</p>
-                <p>https://nakamagarage.com</p>
+                <p>https://drnareshchauhan.in</p>
             `
         };
 
@@ -269,7 +269,7 @@ exports.forgotPassword = (req, res) => {
                 <p>Link expires in 10 minutes.</p>
                 <hr />
                 <p>This email may contain sensitive information</p>
-                <p>https://nakamagarage.com</p>
+                <p>https://drnareshchauhan.in</p>
             `
         };
 

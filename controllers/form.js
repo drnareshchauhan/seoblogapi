@@ -20,7 +20,7 @@ exports.contactForm = (req, res) => {
             <p>Sender message: ${message}</p>
             <hr />
             <p>This email may contain sensitive information</p>
-            <p>https://nakamagarage.com</p>
+            <p>https://drnareshchauhan.in</p>
         `,
   };
 
@@ -64,7 +64,7 @@ exports.contactBlogAuthorForm = (req, res) => {
             <p>Message: ${message}</p>
             <hr />
             <p>This email may contain sensitive information</p>
-            <p>https://nakamagarage.com</p>
+            <p>https://drnareshchauhan.in</p>
         `,
   };
 
