@@ -31,11 +31,17 @@ mongoose
 app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(cookieParser());
+const corsOptions = {
+  origin: "*",
+  credentials: true, //access-control-allow-credentials:true
+  optionSuccessStatus: 200,
+};
 
 //cors
 if (process.env.NODE_ENV === "development") {
   app.use(cors({ origin: `${process.env.CLIENT_URL}` }));
 }
+app.use(cors(corsOptions));
 
 //routes middlewares
 app.use("/api", blogRoutes);
