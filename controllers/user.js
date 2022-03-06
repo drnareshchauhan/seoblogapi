@@ -4,6 +4,7 @@ const _ = require("lodash");
 const formidable = require("formidable"); // handle formdata for photo upload
 const fs = require("fs"); //get filesystem from nodejs
 const { errorHandler } = require("../helpers/dbErrorHandler");
+const slugify = require("slugify");
 
 exports.read = (req, res) => {
   //remove hashed password
